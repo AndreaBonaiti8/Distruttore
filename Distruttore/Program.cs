@@ -12,7 +12,6 @@ namespace Distruttore
         protected int _numero;
         public Esempio()
         {
-            //Fabio Rovazzi è il numero 1
             _stringa = "Fabio Rovazzi";
             _numero = 1;
         }
@@ -24,7 +23,7 @@ namespace Distruttore
         ~Esempio()
         {
             Console.WriteLine("Fabio Rovazzi(numero 1) è stato distrutto");
-        }
+        }       
 
         public void Dispose()
         {
